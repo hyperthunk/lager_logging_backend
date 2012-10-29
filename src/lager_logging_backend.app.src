@@ -1,0 +1,9 @@
+{application, lager_logging_backend,
+ [
+  {description, "A logging_api backend for basho/lager"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {included_applications, [lager]},
+  {mod, {lager_logging_backend_app, []}}
+ ]}.
