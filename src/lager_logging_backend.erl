@@ -43,4 +43,4 @@ levels() ->
           Fmt   :: string(),
           Data  :: list(term())) -> ok.
 log(Level, Meta, Fmt, Data) ->
-    lager:log(Level, Meta, Fmt, Args).
+    lager:log(Level, Meta, Fmt, Data).
